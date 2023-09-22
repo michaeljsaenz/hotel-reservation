@@ -5,7 +5,7 @@ build:
 	@go build -o bin/api
 
 run: build
-	@./bin/api --listenAddr  :7777
+	@./bin/api --listenAddr  :5000
 
 test:
 	@go test -v ./...
